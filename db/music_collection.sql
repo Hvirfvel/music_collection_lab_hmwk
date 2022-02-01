@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS artist;
+DROP TABLE IF EXISTS artists;
 
 CREATE TABLE artists (
     id SERIAL PRIMARY KEY,

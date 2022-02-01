@@ -10,7 +10,7 @@ def run_sql(sql, values = None):
     # use try except/ try block, to catch errors
     try:
         # connects to the database
-        conn=psycopg2.connect("dbname='task_manager'")
+        conn=psycopg2.connect("dbname='music_collection'")
         # cursor is a control structure that lets us go through records in a db
         cur = conn.cursor(cursor_factory=ext.DictCursor) 
         # cursor allows us to use execute to run sql statement  
